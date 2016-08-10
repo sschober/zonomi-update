@@ -1,6 +1,7 @@
 # zonomi-update
 
-a simple zonomi domain update command-line tool
+A simple, fast and small command-line tool to update your 
+[zonomi](https://zonomi.com) domain.
 
 ## Overview
 
@@ -25,10 +26,15 @@ to get a skeleton config file.
 
 ## Installation
 
-To install it, first install `iniflags`
+To install it, first install the [`iniflags`](github.com/vharitonsky/iniflags) 
+package
 
     go get -u -a github.com/vharitonsky/iniflags
 
-then build and install the tool itself via
+then build and install the `zonomi-update` itself via
 
     go get -a -u github.com/sschober/zonomi-update
+    
+# Author
+
+Sven Schober <sv3sch@gmail.com>
